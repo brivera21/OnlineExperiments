@@ -1,0 +1,1525 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     82859,       1517]
+NotebookOptionsPosition[     82070,       1494]
+NotebookOutlinePosition[     82453,       1511]
+CellTagsIndexPosition[     82410,       1508]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"CreateDatabin", "[", 
+  RowBox[{"\"\<Name\>\"", "\[Rule]", "\"\<SurveyDatabin\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7400680089379835`*^9, 3.740068009788025*^9}, 
+   3.7400681707153835`*^9, {3.740079817939986*^9, 3.7400798184124737`*^9}, 
+   3.740145620467586*^9, {3.757361812928032*^9, 3.7573618156048326`*^9}},
+ CellLabel->
+  "In[134]:=",ExpressionUUID->"fdee147f-e44e-4b96-bc69-536936428a55"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Databin",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              Thickness[0.05555555555555555], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                  0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                  0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
+                  0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                  0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                  0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+                  1, 3, 3}}}, {{{15.646999999999998`, 5.933000000000001}, {
+                  13.585, 7.263}, {15.533, 8.458}, {17.332, 
+                  7.363999999999999}, {15.646999999999998`, 
+                  5.933000000000001}}, {{12.697, 3.425}, {10.245, 5.212}, {
+                  12.491, 6.591}, {14.725999999999999`, 
+                  5.1499999999999995`}, {12.697, 3.425}}, {{8.666, 0.}, {
+                  5.978000000000001, 2.285}, {8.666, 4.244}, {
+                  11.354000000000001`, 2.285}, {8.666, 0.}}, {{4.635, 
+                  3.425}, {2.606, 5.1499999999999995`}, {4.841, 6.591}, {
+                  7.087, 5.212}, {4.635, 3.425}}, {{0., 7.363999999999999}, {
+                  1.799, 8.458}, {3.7470000000000003`, 7.263}, {
+                  1.6840000000000002`, 5.933000000000001}, {0., 
+                  7.363999999999999}}, CompressedData["
+1:eJxTTMoPSmViYGAQBmIQrbtp7vvlbqIOP+uy9pQIqzr8Wfnxkm+SjIPIOveH
+VVNUHNgbpzp3v1Fw2Pb575WKk0YOpnG7PHmYFB1eB+6Qa+U2djDvdEx4OkHR
+AWTMMSA/PQ0Ilik61NgDVQLVF9hyXV9coOKwp2SyBMs0FYcFUvp3Vdg04PbJ
+twJNikPwV4Gsn6DhAFQdxrdWxWHWTCCI1HAAOSMnXcXB42GVyLrjig5nz4CA
+hEMWyOAWRQd+kEfUJaDmKzpoxvQf+qoh4RDQOz1P6LCCA5N2u9jNcxIOlltO
+lO2bLwI3TxJoja6RCNw+kO7GqSJw96CHDwDEr32g
+                  "]}]}, 
+               FaceForm[
+                RGBColor[0.44721600000000006`, 0.519288, 0.528528, 1.]], 
+               StripOnInput -> False]}, {
+             Background -> GrayLevel[0.93], Axes -> False, AspectRatio -> 1, 
+              ImageSize -> {Automatic, 
+                Dynamic[
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                  Magnification])]}, Frame -> True, FrameTicks -> None, 
+              PlotRangePadding -> 2.5, FrameStyle -> Directive[
+                Thickness[Tiny], 
+                GrayLevel[0.55]], ImageSize -> {18., 19.}, 
+              PlotRange -> {{0., 18.}, {0., 19.}}, AspectRatio -> Automatic}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"SurveyDatabin\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Entry count: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    Lookup[
+                    Replace[
+                    
+                    DataDropClient`Private`datadropclientcache[{
+                    "DatabinStats", 
+                    "DD7bbc12c88e4-ca7f-4d63-bed7-b2a1707e2997"}], Except[
+                    Blank[Association]] -> {}, {0}], "EntryCount", 
+                    Missing[]], StandardForm]], "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              Thickness[0.05555555555555555], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                  0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+                  0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
+                  0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                  0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                  0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+                  1, 3, 3}}}, {{{15.646999999999998`, 5.933000000000001}, {
+                  13.585, 7.263}, {15.533, 8.458}, {17.332, 
+                  7.363999999999999}, {15.646999999999998`, 
+                  5.933000000000001}}, {{12.697, 3.425}, {10.245, 5.212}, {
+                  12.491, 6.591}, {14.725999999999999`, 
+                  5.1499999999999995`}, {12.697, 3.425}}, {{8.666, 0.}, {
+                  5.978000000000001, 2.285}, {8.666, 4.244}, {
+                  11.354000000000001`, 2.285}, {8.666, 0.}}, {{4.635, 
+                  3.425}, {2.606, 5.1499999999999995`}, {4.841, 6.591}, {
+                  7.087, 5.212}, {4.635, 3.425}}, {{0., 7.363999999999999}, {
+                  1.799, 8.458}, {3.7470000000000003`, 7.263}, {
+                  1.6840000000000002`, 5.933000000000001}, {0., 
+                  7.363999999999999}}, CompressedData["
+1:eJxTTMoPSmViYGAQBmIQrbtp7vvlbqIOP+uy9pQIqzr8Wfnxkm+SjIPIOveH
+VVNUHNgbpzp3v1Fw2Pb575WKk0YOpnG7PHmYFB1eB+6Qa+U2djDvdEx4OkHR
+AWTMMSA/PQ0Ilik61NgDVQLVF9hyXV9coOKwp2SyBMs0FYcFUvp3Vdg04PbJ
+twJNikPwV4Gsn6DhAFQdxrdWxWHWTCCI1HAAOSMnXcXB42GVyLrjig5nz4CA
+hEMWyOAWRQd+kEfUJaDmKzpoxvQf+qoh4RDQOz1P6LCCA5N2u9jNcxIOlltO
+lO2bLwI3TxJoja6RCNw+kO7GqSJw96CHDwDEr32g
+                  "]}]}, 
+               FaceForm[
+                RGBColor[0.44721600000000006`, 0.519288, 0.528528, 1.]], 
+               StripOnInput -> False]}, {
+             Background -> GrayLevel[0.93], Axes -> False, AspectRatio -> 1, 
+              ImageSize -> {Automatic, 
+                Dynamic[
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                  Magnification])]}, Frame -> True, FrameTicks -> None, 
+              PlotRangePadding -> 2.5, FrameStyle -> Directive[
+                Thickness[Tiny], 
+                GrayLevel[0.55]], ImageSize -> {18., 19.}, 
+              PlotRange -> {{0., 18.}, {0., 19.}}, AspectRatio -> Automatic}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"SurveyDatabin\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Entry count: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    Lookup[
+                    Replace[
+                    
+                    DataDropClient`Private`datadropclientcache[{
+                    "DatabinStats", 
+                    "DD7bbc12c88e4-ca7f-4d63-bed7-b2a1707e2997"}], Except[
+                    Blank[Association]] -> {}, {0}], "EntryCount", 
+                    Missing[]], StandardForm]], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Short ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"ASdSllF0\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"DD7bbc12c88e4-ca7f-4d63-bed7-b2a1707e2997\"", 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"ShortURL: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{
+                   "\"https://wolfr.am/ASdSllF0\"", 
+                    "https://wolfr.am/ASdSllF0"}, "HyperlinkURL"], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Short ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"ASdSllF0\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"DD7bbc12c88e4-ca7f-4d63-bed7-b2a1707e2997\"", 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"ShortURL: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{
+                   "\"https://wolfr.am/ASdSllF0\"", 
+                    "https://wolfr.am/ASdSllF0"}, "HyperlinkURL"], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Creator: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"brivera@crimson.ua.edu\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Owner: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"brivera@crimson.ua.edu\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Creation date: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"Thu 24 Jan 2019 18:35:36\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Latest date: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    Replace[
+                    Lookup[
+                    Replace[
+                    
+                    DataDropClient`Private`datadropclientcache[{
+                    "DatabinLatest", 
+                    "DD7bbc12c88e4-ca7f-4d63-bed7-b2a1707e2997"}], Except[
+                    Blank[Association]] -> {}, {0}], "Timestamp", 
+                    Missing[]], Pattern[DataDropClient`Private`date, 
+                    Blank[DateObject]] :> 
+                    DateString[DataDropClient`Private`date], {0}], 
+                    StandardForm]], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Size: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    (If[
+                    NumberQ[#], 
+                    Round[#, 0.1], #]& )[
+                    Lookup[
+                    Replace[
+                    
+                    DataDropClient`Private`datadropclientcache[{
+                    "DatabinStats", 
+                    "DD7bbc12c88e4-ca7f-4d63-bed7-b2a1707e2997"}], Except[
+                    Blank[Association]] -> {}, {0}], "Size", 
+                    Missing[]]], StandardForm]], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Latest: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    Lookup[
+                    Replace[
+                    
+                    DataDropClient`Private`datadropclientcache[{
+                    "DatabinLatest", 
+                    "DD7bbc12c88e4-ca7f-4d63-bed7-b2a1707e2997"}], Except[
+                    Blank[Association]] -> {}, {0}], "Data", 
+                    Missing[]], StandardForm]], "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Databin["ASdSllF0"],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.7400670259356384`*^9, 3.7400680241608887`*^9, 
+  3.740068172277291*^9, 3.74007982057893*^9, 3.7400800583397236`*^9, 
+  3.7400832041856947`*^9, 3.7400888104803133`*^9, 3.7400888667661867`*^9, 
+  3.7401360807844815`*^9, 3.7401405049111924`*^9, 3.740140925152047*^9, 
+  3.740145621985211*^9, 3.740165925933441*^9, 3.7401668592060833`*^9, 
+  3.7401690199857116`*^9, 3.7401704865055094`*^9, 3.7401773960872564`*^9, 
+  3.7401787854190903`*^9, 3.757361820501792*^9},
+ CellLabel->
+  "Out[134]=",ExpressionUUID->"19577994-2309-4ad4-9f97-d9092c9f2be4"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=ASdSllF0&\>\"", 
+  "]"}]], "Input",ExpressionUUID->"0d7d2be5-56c5-478c-9ee8-87956c73b069"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Hyperlink", "@", 
+    RowBox[{"URLShorten", "@", 
+     RowBox[{"CloudDeploy", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Panel", "[", 
+        RowBox[{
+         RowBox[{"DynamicModule", "[", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"{", "\[IndentingNewLine]", 
+            RowBox[{
+             RowBox[{"bin", "=", "\"\<ASdSllF0\>\""}], ",", 
+             "\[IndentingNewLine]", 
+             RowBox[{"fcolor", "=", "Black"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"bcolor", "=", "LightGray"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"fsize", "=", "200"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"fsize2", "=", "40"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"isize", "=", "100"}], ",", "\[IndentingNewLine]", "a", 
+             ",", "\[IndentingNewLine]", "b", ",", "\[IndentingNewLine]", 
+             "choice", ",", "\[IndentingNewLine]", 
+             RowBox[{"pressed", "=", "1"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"counter", "=", "1"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"ntrials", "=", "15"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"nbaselinetials", "=", "2"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"baselinecounter", "=", "1"}], ",", 
+             "\[IndentingNewLine]", "stimuliPresTime", ",", 
+             "\[IndentingNewLine]", 
+             RowBox[{"baselineStimuli", "=", "0"}], ",", 
+             "\[IndentingNewLine]", "outputString", ",", 
+             "\[IndentingNewLine]", 
+             RowBox[{"onsetTime", " ", "=", " ", 
+              RowBox[{"ToString", "[", 
+               RowBox[{"Drop", "[", 
+                RowBox[{
+                 RowBox[{"DateList", "[", "]"}], " ", ",", 
+                 RowBox[{"{", 
+                  RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}], ",", 
+             "\[IndentingNewLine]", "responseKey"}], "\[IndentingNewLine]", 
+            "}"}], ",", "\[IndentingNewLine]", 
+           RowBox[{"Dynamic", "[", 
+            RowBox[{"Overlay", "[", 
+             RowBox[{
+              RowBox[{"{", "\[IndentingNewLine]", 
+               RowBox[{
+                RowBox[{"Grid", "[", 
+                 RowBox[{"{", "\[IndentingNewLine]", 
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "50"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<Instructions\>\"", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", "Bold", 
+                    ",", 
+                    RowBox[{"FontSize", "\[Rule]", "80"}]}], "]"}], "}"}], 
+                   ",", "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "40"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{
+                    "\"\<In the following section, a series of fractions in \
+the form a/b with values ranging from 0 to 1 will be presented one at the \
+time. Please indicate whether the numerical value of the fraction presented \
+is closer to 0 or 1 by pressing either the 0 or 1 buttons at the bottom of \
+the screen.\>\"", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], "}"}], 
+                   ",", "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "20"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{
+                    "\"\<There will be 10 initial trials which simply require \
+you to press either the 0 or 1 buttons when a zero or a one appear on the \
+screen. The fraction trials will begin immediately after these calibration \
+trials are completed.\>\"", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], "}"}], 
+                   ",", "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "20"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{
+                    "\"\<There will be several trials taking only a few \
+seconds each. The entire session lasts approximately 5 minutes in total.\>\"",
+                     ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], "}"}], 
+                   ",", "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "20"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{
+                    "\"\<Please make sure your browser window is in \
+fullscreen.\>\"", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "20"}]}], "]"}], "}"}], 
+                   ",", "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "20"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<Press the button below when ready\>\"", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", "Bold", 
+                    ",", 
+                    RowBox[{"FontSize", "\[Rule]", "40"}]}], "]"}], "}"}], 
+                   ",", "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "20"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<Let the trials begin!\>\"", ",", "Bold", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", " ", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "ntrials", "]"}], "<>", 
+                    "\"\<&OnsetTime=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "onsetTime", "]"}]}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", "2"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"baselineStimuli", "=", "0"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"stimuliPresTime", "=", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "Large"}]}], 
+                    "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+                    "}"}], ",", "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"50", ",", "30"}], "}"}], "]"}], "}"}]}], 
+                  "\[IndentingNewLine]", "}"}], "]"}], ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"Which", "[", "\[IndentingNewLine]", 
+                 RowBox[{
+                  RowBox[{"TrueQ", "[", 
+                   RowBox[{"baselinecounter", "<", "nbaselinetials"}], "]"}], 
+                  ",", "\[IndentingNewLine]", 
+                  RowBox[{"Grid", "[", 
+                   RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "100"}], "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{"baselineStimuli", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize"}], ",", "Bold"}], 
+                    "]"}], "}"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "80"}], "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Row", "\[IndentingNewLine]", "[", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"Panel", "[", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<0\>\"", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", " ", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "baselinecounter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Stimuli=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "baselineStimuli", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=0\>\""}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"baselineStimuli", "=", "1"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", " ", "2"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"baselinecounter", "++"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"stimuliPresTime", "=", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "20"}], ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Frameless\>\""}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}], ",", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "30"}], "}"}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Panel", "[", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<1\>\"", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "baselinecounter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Stimuli=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "baselineStimuli", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=1\>\""}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"baselineStimuli", "=", "0"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", " ", "2"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"baselinecounter", "++"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"stimuliPresTime", "=", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "20"}], ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Frameless\>\""}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}]}], 
+                    "\[IndentingNewLine]", "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"50", ",", "30"}], "}"}], "]"}], "}"}]}], 
+                    "\[IndentingNewLine]", "}"}], "]"}], ",", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{"TrueQ", "[", 
+                   RowBox[{"nbaselinetials", "==", "baselinecounter"}], "]"}],
+                   ",", "\[IndentingNewLine]", 
+                  RowBox[{"Grid", "[", 
+                   RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "100"}], "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{"baselineStimuli", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize"}], ",", "Bold"}], 
+                    "]"}], "}"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "80"}], "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Row", "[", 
+                    RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"Panel", "[", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<0\>\"", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "baselinecounter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Stimuli=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "baselineStimuli", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=0\>\""}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"b", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "100"}], "}"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"a", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", 
+                    RowBox[{"b", "-", "1"}]}], "}"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", " ", "3"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"stimuliPresTime", "=", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "20"}], ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Frameless\>\""}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}], ",", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "30"}], "}"}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Panel", "[", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<1\>\"", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", " ", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "baselinecounter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Stimuli=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "baselineStimuli", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=1\>\""}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"b", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "100"}], "}"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"a", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", 
+                    RowBox[{"b", "-", "1"}]}], "}"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", "3"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"stimuliPresTime", "=", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "20"}], ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Frameless\>\""}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}]}], 
+                    "\[IndentingNewLine]", "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"50", ",", "30"}], "}"}], "]"}], "}"}]}], 
+                    "\[IndentingNewLine]", "}"}], "]"}]}], 
+                 "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"Which", "[", "\[IndentingNewLine]", 
+                 RowBox[{
+                  RowBox[{"TrueQ", "[", 
+                   RowBox[{"counter", "<", "ntrials"}], "]"}], ",", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{"Grid", "[", 
+                   RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "50"}], "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    StyleBox["Dynamic", "Code"], 
+                    StyleBox["[", "Code"], 
+                    RowBox[{"Style", "[", 
+                    RowBox[{
+                    FractionBox["a", "b"], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize"}], ",", "Bold"}], 
+                    "]"}], "]"}], "}"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    StyleBox["EventHandler", "Code"], 
+                    StyleBox["[", "Code"], 
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{"InputField", "[", 
+                    RowBox[{",", 
+                    RowBox[{"FieldSize", "\[Rule]", "10"}]}], "]"}], "Code"], 
+                    StyleBox[",", "Code"], 
+                    RowBox[{
+                    StyleBox["\"\<KeyDown\>\"", "Code"], 
+                    StyleBox["\[RuleDelayed]", "Code"], 
+                    StyleBox["\n", "Code"], 
+                    RowBox[{
+                    StyleBox["{", "Code"], 
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{"responseKey", " ", "=", " ", 
+                    RowBox[{"CurrentValue", "[", "\"\<EventKey\>\"", "]"}]}], 
+                    "Code"], 
+                    StyleBox[",", "Code"], 
+                    StyleBox[
+                    RowBox[{"b", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "100"}], "}"}], "]"}]}], "Code"], 
+                    StyleBox[",", "Code"], 
+                    StyleBox["\[IndentingNewLine]", "Code"], 
+                    StyleBox[
+                    RowBox[{"a", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", 
+                    RowBox[{"b", "-", "1"}]}], "}"}], "]"}]}], "Code"], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"outputString", " ", "=", " ", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "counter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "responseKey", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Numerator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "a", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Denominator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "b", "]"}]}]}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", " ", "3"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"counter", "++"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"stimuliPresTime", "=", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}]}], 
+                    StyleBox["}", "Code"]}]}]}], 
+                    StyleBox["]", "Code"]}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "30"}], "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Row", "[", 
+                    RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"Panel", "[", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<0\>\"", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", " ", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "counter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "responseKey", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Numerator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "a", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Denominator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "b", "]"}]}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"b", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "100"}], "}"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"a", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", 
+                    RowBox[{"b", "-", "1"}]}], "}"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", " ", "3"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"counter", "++"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"stimuliPresTime", "=", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "20"}], ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Frameless\>\""}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}], ",", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "30"}], "}"}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Panel", "[", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<1\>\"", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", " ", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "counter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "responseKey", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Numerator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "a", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Denominator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "b", "]"}]}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"b", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "100"}], "}"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"a", "=", 
+                    RowBox[{"RandomInteger", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", 
+                    RowBox[{"b", "-", "1"}]}], "}"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", " ", "3"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"counter", "++"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"stimuliPresTime", "=", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}]}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "20"}], ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Frameless\>\""}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}]}], 
+                    "\[IndentingNewLine]", "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"50", ",", "30"}], "}"}], "]"}], "}"}]}], 
+                    "\[IndentingNewLine]", "}"}], "]"}], ",", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{"TrueQ", "[", 
+                   RowBox[{"counter", "\[Equal]", "ntrials"}], "]"}], ",", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{"Grid", "[", 
+                   RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "50"}], "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{
+                    FractionBox["a", "b"], ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize"}], ",", "Bold"}], 
+                    "]"}], "}"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "30"}], "}"}], "]"}], "}"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Row", "[", 
+                    RowBox[{"{", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"Panel", "[", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<0\>\"", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", " ", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "counter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=0\>\"", "<>", 
+                    "\[IndentingNewLine]", "\"\<&Numerator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "a", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Denominator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "b", "]"}]}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", " ", "4"}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "20"}], ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Frameless\>\""}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}], ",", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "30"}], "}"}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Panel", "[", 
+                    RowBox[{"Button", "[", 
+                    RowBox[{
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<1\>\"", ",", 
+                    RowBox[{"FontSize", "\[Rule]", "fsize2"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"outputString", " ", "=", " ", 
+                    RowBox[{
+                    "\"\<https://datadrop.wolframcloud.com/api/v1.0/Add?bin=\
+ASdSllF0&Trial=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "counter", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&StimuliOnset=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "stimuliPresTime", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&TimeSubmitted=\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"Drop", "[", 
+                    RowBox[{
+                    RowBox[{"DateList", "[", "]"}], " ", ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "5"}], "}"}]}], "]"}], "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Response=1\>\"", "<>", 
+                    "\[IndentingNewLine]", "\"\<&Numerator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "a", "]"}], "<>", 
+                    "\[IndentingNewLine]", "\"\<&Denominator=\>\"", "<>", 
+                    RowBox[{"ToString", "[", "b", "]"}]}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Get", "[", "outputString", "]"}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"pressed", "=", "4"}]}], ",", 
+                    RowBox[{"FrameMargins", "\[Rule]", "20"}], ",", 
+                    RowBox[{"Appearance", "\[Rule]", "\"\<Frameless\>\""}]}], 
+                    "\[IndentingNewLine]", "]"}], "]"}]}], 
+                    "\[IndentingNewLine]", "}"}], "]"}], 
+                    "\[IndentingNewLine]", "}"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"50", ",", "30"}], "}"}], "]"}], "}"}]}], 
+                    "\[IndentingNewLine]", "}"}], "]"}]}], 
+                 "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"Grid", "[", 
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "50"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<You are all done!\>\"", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"FontSize", "\[Rule]", "150"}], ",", "Bold"}], 
+                    "]"}], "}"}], ",", "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Spacer", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"70", ",", "50"}], "}"}], "]"}], "}"}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"{", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{"\"\<Thank you\>\"", ",", 
+                    RowBox[{"FontColor", "\[Rule]", "fcolor"}], ",", 
+                    RowBox[{"FontSize", "\[Rule]", "150"}], ",", "Bold"}], 
+                    "]"}], "}"}]}], "}"}], "]"}], ",", "\[IndentingNewLine]", 
+                RowBox[{"{", 
+                 RowBox[{"Spacer", "[", 
+                  RowBox[{"{", 
+                   RowBox[{"70", ",", "50"}], "}"}], "]"}], "}"}], ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"Alignment", "\[Rule]", 
+                 RowBox[{"{", "Center", "}"}]}]}], "}"}], ",", 
+              "\[IndentingNewLine]", 
+              RowBox[{"{", 
+               RowBox[{"Which", "[", 
+                RowBox[{
+                 RowBox[{"TrueQ", "[", 
+                  RowBox[{"pressed", "\[Equal]", "1"}], "]"}], ",", "1", ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"TrueQ", "[", 
+                  RowBox[{"pressed", "\[Equal]", "2"}], "]"}], ",", "2", ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"TrueQ", "[", 
+                  RowBox[{"pressed", "\[Equal]", "3"}], "]"}], ",", "3", ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"TrueQ", "[", 
+                  RowBox[{"pressed", "\[Equal]", "4"}], "]"}], ",", "4"}], 
+                "]"}], "}"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"Which", "[", 
+               RowBox[{
+                RowBox[{"TrueQ", "[", 
+                 RowBox[{"pressed", "\[Equal]", "1"}], "]"}], ",", "1", ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"TrueQ", "[", 
+                 RowBox[{"pressed", "\[Equal]", "2"}], "]"}], ",", "2", ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"TrueQ", "[", 
+                 RowBox[{"pressed", "\[Equal]", "3"}], "]"}], ",", "3", ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{"TrueQ", "[", 
+                 RowBox[{"pressed", "\[Equal]", "4"}], "]"}], ",", "4"}], 
+               "]"}], ",", "\[IndentingNewLine]", 
+              RowBox[{"Alignment", "\[Rule]", 
+               RowBox[{"{", 
+                RowBox[{"Center", ",", "Center"}], "}"}]}], ",", 
+              RowBox[{"Background", "\[Rule]", "White"}]}], "]"}], "]"}]}], 
+          "]"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"ImageSize", "\[Rule]", "Full"}], ",", 
+         RowBox[{"Background", "\[Rule]", "White"}], ",", 
+         RowBox[{"Alignment", "\[Rule]", "Center"}]}], "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Permissions", "\[Rule]", "\"\<Public\>\""}]}], 
+      "\[IndentingNewLine]", "]"}]}]}], "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.7400085638516383`*^9, 3.7400085842265296`*^9}, {
+   3.740008640510891*^9, 3.7400089342521105`*^9}, {3.7400089717628193`*^9, 
+   3.7400090469634275`*^9}, {3.7400090818457055`*^9, 
+   3.7400091608673325`*^9}, {3.740009257559564*^9, 3.740009449144677*^9}, {
+   3.7400107527317133`*^9, 3.7400107530758977`*^9}, {3.74001082707246*^9, 
+   3.7400108313144913`*^9}, {3.7400110561654406`*^9, 
+   3.7400111151282816`*^9}, {3.740011145354356*^9, 3.7400112130794153`*^9}, {
+   3.7400112610154977`*^9, 3.7400113965639224`*^9}, {3.7400114333284826`*^9, 
+   3.7400115313539653`*^9}, {3.740011562643611*^9, 3.740011588113981*^9}, {
+   3.7400116428271437`*^9, 3.7400116617461443`*^9}, {3.7400117685672455`*^9, 
+   3.7400118100181627`*^9}, {3.740011861210955*^9, 3.7400119279203706`*^9}, {
+   3.740012002223241*^9, 3.7400120583641443`*^9}, {3.740012147823249*^9, 
+   3.740012254417744*^9}, {3.740012420924631*^9, 3.740012478344226*^9}, {
+   3.7400125711409874`*^9, 3.740012578384804*^9}, {3.7400126297011776`*^9, 
+   3.740012630601972*^9}, {3.740012779835456*^9, 3.7400128087347336`*^9}, {
+   3.740012858360401*^9, 3.7400129338045135`*^9}, {3.74001299644761*^9, 
+   3.7400130026509085`*^9}, {3.7400130493569045`*^9, 3.740013075570283*^9}, {
+   3.7400131136793766`*^9, 3.7400131158197265`*^9}, 3.7400132802005763`*^9, {
+   3.740013499704468*^9, 3.740013501063547*^9}, {3.740013795155451*^9, 
+   3.7400137953939066`*^9}, {3.7400581558772793`*^9, 3.740058171376754*^9}, {
+   3.7400582783565187`*^9, 3.740058295200321*^9}, {3.7400583349518766`*^9, 
+   3.7400583653348722`*^9}, {3.740058409194272*^9, 3.740058435257473*^9}, {
+   3.740058533931968*^9, 3.7400585882971697`*^9}, {3.740058654658066*^9, 
+   3.7400586642230415`*^9}, {3.740058811486987*^9, 3.7400588399144807`*^9}, 
+   3.7400588954136763`*^9, 3.7400590470308094`*^9, {3.740059094546481*^9, 
+   3.740059106729556*^9}, {3.740059313223108*^9, 3.7400593595685835`*^9}, {
+   3.74005939324745*^9, 3.7400594363554077`*^9}, {3.7400595441471395`*^9, 
+   3.7400595488179817`*^9}, {3.740059636076322*^9, 3.7400596397554045`*^9}, {
+   3.740059691427785*^9, 3.740059782911428*^9}, {3.740059876748103*^9, 
+   3.7400599744085693`*^9}, {3.7400600060433464`*^9, 3.7400600457799773`*^9}, 
+   3.740060184670475*^9, {3.740060234156639*^9, 3.7400602931140156`*^9}, {
+   3.7400603320106134`*^9, 3.7400603321750937`*^9}, {3.7400604909405637`*^9, 
+   3.740060518481213*^9}, {3.740060557236925*^9, 3.7400606389332266`*^9}, {
+   3.740060699906893*^9, 3.740060710279026*^9}, {3.7400607629567056`*^9, 
+   3.7400608323824644`*^9}, {3.7400608731198645`*^9, 
+   3.7400609393397536`*^9}, {3.7400609920782614`*^9, 
+   3.7400610014222107`*^9}, {3.7400610348609886`*^9, 
+   3.7400610382966595`*^9}, {3.740061096246517*^9, 3.7400611217220697`*^9}, {
+   3.7400612023795786`*^9, 3.740061217863096*^9}, {3.740061488210456*^9, 
+   3.740061551294318*^9}, {3.74006160116463*^9, 3.740061641027934*^9}, {
+   3.7400619145559297`*^9, 3.740061915056427*^9}, 3.7400619986668873`*^9, {
+   3.740062062041827*^9, 3.7400620671584597`*^9}, {3.7400621648939004`*^9, 
+   3.740062168295866*^9}, 3.7400622037798944`*^9, {3.7400622849862967`*^9, 
+   3.7400622987358685`*^9}, {3.740062350036732*^9, 3.7400623506841407`*^9}, 
+   3.7400623868374395`*^9, {3.7400624572244997`*^9, 3.7400625122975874`*^9}, {
+   3.740062552455233*^9, 3.740062562898884*^9}, {3.7400626141384563`*^9, 
+   3.7400626145536327`*^9}, {3.7400626897917852`*^9, 
+   3.7400626903027554`*^9}, {3.7400627217544146`*^9, 3.740062727166834*^9}, {
+   3.7400627767568645`*^9, 3.7400627784805655`*^9}, {3.7400631900216703`*^9, 
+   3.7400632076997986`*^9}, {3.7400632433013*^9, 3.7400633158907185`*^9}, {
+   3.740063361088934*^9, 3.740063408829212*^9}, {3.740063854142423*^9, 
+   3.7400638545134115`*^9}, {3.7400639466549883`*^9, 
+   3.7400640745867176`*^9}, {3.7400641345121756`*^9, 
+   3.7400642082551923`*^9}, {3.7400642659618225`*^9, 3.740064286034848*^9}, {
+   3.740064434760066*^9, 3.740064436666921*^9}, {3.7400644695414963`*^9, 
+   3.7400644699579744`*^9}, 3.740064529136104*^9, {3.740064559167381*^9, 
+   3.740064567915824*^9}, 3.7400646178457956`*^9, {3.740064649275054*^9, 
+   3.740064677260641*^9}, {3.7400648007224383`*^9, 3.740064811286236*^9}, {
+   3.7400649263906713`*^9, 3.7400649743364196`*^9}, {3.7400650391019726`*^9, 
+   3.740065166409051*^9}, {3.7400652562378874`*^9, 3.7400653298200035`*^9}, 
+   3.740065388139184*^9, {3.7400654261777287`*^9, 3.740065533173901*^9}, {
+   3.7400655633489213`*^9, 3.740065581297511*^9}, {3.740065622758889*^9, 
+   3.7400656233761854`*^9}, {3.7400656588917456`*^9, 3.740065681000595*^9}, {
+   3.740065814557118*^9, 3.740065826534073*^9}, {3.7400659305545874`*^9, 
+   3.74006595816989*^9}, {3.7400660326752768`*^9, 3.740066073340541*^9}, {
+   3.7400663021446877`*^9, 3.7400663063873663`*^9}, {3.740066338164386*^9, 
+   3.740066339809352*^9}, 3.7400663753911176`*^9, 3.7400668581675453`*^9, {
+   3.7400668884597263`*^9, 3.7400669376966734`*^9}, {3.7400670665970483`*^9, 
+   3.7400671123336644`*^9}, {3.740067179550296*^9, 3.7400671959388027`*^9}, {
+   3.740067311815398*^9, 3.7400673661847897`*^9}, {3.740067398290084*^9, 
+   3.7400674197244883`*^9}, {3.7400675037332125`*^9, 3.740067505325697*^9}, {
+   3.74006756034814*^9, 3.740067574161594*^9}, 3.740067618152934*^9, {
+   3.74006766132183*^9, 3.7400676833260145`*^9}, {3.740067768982028*^9, 
+   3.740067806110056*^9}, {3.7400680226174335`*^9, 3.7400680234399023`*^9}, {
+   3.7400680905725737`*^9, 3.7400681004308043`*^9}, {3.740068234930689*^9, 
+   3.7400682467297144`*^9}, {3.740073927959374*^9, 3.740073931816315*^9}, {
+   3.7400739642285852`*^9, 3.740073979760595*^9}, {3.7400747327529507`*^9, 
+   3.7400747330924444`*^9}, {3.740074936257719*^9, 3.7400749390462875`*^9}, {
+   3.7400749920886126`*^9, 3.7400750505474606`*^9}, {3.7400752275731864`*^9, 
+   3.7400752356208763`*^9}, {3.7400753727938256`*^9, 3.740075373552534*^9}, {
+   3.7400754092785764`*^9, 3.7400754639732037`*^9}, {3.7400756371465664`*^9, 
+   3.740075684916598*^9}, {3.7400757404224796`*^9, 3.7400757718267508`*^9}, {
+   3.7400785643811307`*^9, 3.7400785729804893`*^9}, 3.740078653736003*^9, {
+   3.740078722639123*^9, 3.740078780345977*^9}, {3.740078815950803*^9, 
+   3.740078840292821*^9}, {3.740078881556985*^9, 3.7400789217606783`*^9}, {
+   3.740078955615929*^9, 3.740078978708468*^9}, {3.7400790828355684`*^9, 
+   3.740079120029298*^9}, 3.740079226210225*^9, {3.7400797769277964`*^9, 
+   3.7400797801652327`*^9}, {3.7400801363007097`*^9, 3.740080137977178*^9}, {
+   3.740080594947981*^9, 3.74008065465333*^9}, {3.7400807487632923`*^9, 
+   3.740080754730672*^9}, {3.74008085340769*^9, 3.7400808701198826`*^9}, {
+   3.74008144788896*^9, 3.740081448095483*^9}, {3.7400815247404366`*^9, 
+   3.7400815257974515`*^9}, {3.7400821525240664`*^9, 3.7400821633878355`*^9}, 
+   3.740082293427767*^9, {3.7400823313775406`*^9, 3.7400823326969843`*^9}, {
+   3.74008236425589*^9, 3.740082372015233*^9}, {3.7400824167303524`*^9, 
+   3.740082520622261*^9}, {3.740082574567407*^9, 3.740082584990218*^9}, {
+   3.740082619697672*^9, 3.740082664272791*^9}, {3.7400827132613497`*^9, 
+   3.740082717559252*^9}, {3.740082757223955*^9, 3.740082762263852*^9}, {
+   3.7400829392203646`*^9, 3.7400830980997057`*^9}, {3.7400831355314927`*^9, 
+   3.740083147077746*^9}, {3.740083362872992*^9, 3.740083386360996*^9}, 
+   3.740083492338896*^9, 3.7400835532578664`*^9, {3.7400837593066635`*^9, 
+   3.740083789847085*^9}, {3.7400838541723127`*^9, 3.740083958757242*^9}, {
+   3.74008580540211*^9, 3.740085826958209*^9}, {3.7400862550375133`*^9, 
+   3.7400863455863113`*^9}, {3.7400864192598515`*^9, 3.7400864850235543`*^9}, 
+   3.740086548854244*^9, {3.7400866867008133`*^9, 3.7400866897282357`*^9}, {
+   3.740086737750533*^9, 3.740086836907067*^9}, {3.7400869069301524`*^9, 
+   3.7400869310902023`*^9}, {3.7400870909462967`*^9, 3.740087125322565*^9}, {
+   3.7400872406221333`*^9, 3.740087246197522*^9}, {3.740087397793528*^9, 
+   3.7400873984200087`*^9}, {3.7400875651851797`*^9, 
+   3.7400875700885553`*^9}, {3.7400876260524454`*^9, 3.740087670942586*^9}, {
+   3.740087703365944*^9, 3.740087725618477*^9}, {3.7400879652167616`*^9, 
+   3.7400879656472244`*^9}, {3.7400881630363455`*^9, 
+   3.7400881687517047`*^9}, {3.7400882226331654`*^9, 
+   3.7400882716881666`*^9}, {3.7400885289109974`*^9, 3.740088546389658*^9}, {
+   3.7400886100568914`*^9, 3.740088635707883*^9}, {3.740088669774867*^9, 
+   3.740088677331216*^9}, {3.740089679446952*^9, 3.740089708822096*^9}, {
+   3.7400898319146347`*^9, 3.740089848784297*^9}, {3.7400903100961943`*^9, 
+   3.7400903270428286`*^9}, {3.7400904183455267`*^9, 3.740090433976241*^9}, {
+   3.740090562041376*^9, 3.740090624075178*^9}, {3.740090687402899*^9, 
+   3.740090708943748*^9}, {3.7400907437120924`*^9, 3.740090792441553*^9}, {
+   3.740090830240813*^9, 3.740090830632826*^9}, {3.740090888749729*^9, 
+   3.740090888872224*^9}, {3.740090949694017*^9, 3.7400909794959536`*^9}, {
+   3.740091103290366*^9, 3.740091113814663*^9}, {3.7400911820668344`*^9, 
+   3.7400911847932787`*^9}, {3.7400914203400736`*^9, 3.740091569764516*^9}, {
+   3.74009160058521*^9, 3.7400916010157003`*^9}, {3.74009172296702*^9, 
+   3.7400917699829965`*^9}, {3.7400918195047503`*^9, 
+   3.7400918444098005`*^9}, {3.74009196565506*^9, 3.7400919730439243`*^9}, {
+   3.7401345496087275`*^9, 3.740134662202484*^9}, {3.740134696476552*^9, 
+   3.7401347007819824`*^9}, {3.7401350331246758`*^9, 3.740135070166914*^9}, {
+   3.740135100670973*^9, 3.740135244306425*^9}, {3.740135309391713*^9, 
+   3.7401353095043464`*^9}, {3.740135362525096*^9, 3.740135389354973*^9}, {
+   3.740135422821743*^9, 3.740135472587875*^9}, {3.740135528796019*^9, 
+   3.74013556475718*^9}, 3.740135662694441*^9, 3.7401356985609975`*^9, 
+   3.7401357918034887`*^9, {3.7401358480730314`*^9, 3.740135853605204*^9}, {
+   3.740135928764615*^9, 3.740135980961286*^9}, {3.7401362033670006`*^9, 
+   3.7401364780670233`*^9}, {3.7401367126461053`*^9, 
+   3.7401367671646123`*^9}, {3.7401370549810963`*^9, 
+   3.7401372003817167`*^9}, {3.7401372402238855`*^9, 
+   3.7401372438559713`*^9}, {3.7401372772268667`*^9, 3.7401373230971622`*^9}, 
+   3.740137484985878*^9, {3.740137673798596*^9, 3.7401377889838595`*^9}, {
+   3.7401379737296114`*^9, 3.7401380134476705`*^9}, {3.7401381336358967`*^9, 
+   3.7401381550742607`*^9}, {3.740138221108671*^9, 3.7401382311840734`*^9}, {
+   3.740138262607287*^9, 3.7401382888388395`*^9}, {3.740138440683403*^9, 
+   3.74013844114739*^9}, {3.7401384838219743`*^9, 3.7401384842943172`*^9}, {
+   3.7401385189314528`*^9, 3.740138525353588*^9}, {3.7401386342711535`*^9, 
+   3.740138669268514*^9}, {3.740138818577896*^9, 3.740138827874298*^9}, {
+   3.7401388578903866`*^9, 3.740138869354895*^9}, {3.7401389269688787`*^9, 
+   3.7401389574124017`*^9}, {3.7401389959985123`*^9, 
+   3.7401390412034736`*^9}, {3.740139115223979*^9, 3.740139160307047*^9}, {
+   3.740139218561833*^9, 3.740139323920801*^9}, 3.7401397030730553`*^9, {
+   3.7401397353998375`*^9, 3.740139741204698*^9}, {3.7401397887799873`*^9, 
+   3.7401397918599815`*^9}, {3.740139832158676*^9, 3.7401398787531724`*^9}, {
+   3.740139910426732*^9, 3.7401401417406473`*^9}, {3.7401401988483906`*^9, 
+   3.7401402211312857`*^9}, {3.740140350095541*^9, 3.7401403510142403`*^9}, {
+   3.740140531077548*^9, 3.7401405591810875`*^9}, {3.7401407155089097`*^9, 
+   3.7401407458836026`*^9}, {3.740140790861068*^9, 3.740140800710413*^9}, {
+   3.740140964392858*^9, 3.7401409910965624`*^9}, {3.7401429327637715`*^9, 
+   3.740142994975144*^9}, 3.7401431301932654`*^9, {3.7401438414533477`*^9, 
+   3.7401438683889217`*^9}, {3.740143978863825*^9, 3.7401439804629292`*^9}, {
+   3.7401440127990723`*^9, 3.740144072459656*^9}, 3.7401442410192027`*^9, {
+   3.7401444516735067`*^9, 3.7401444843765926`*^9}, 3.7401445378166714`*^9, {
+   3.7401447329191284`*^9, 3.7401447653685637`*^9}, {3.7401448370901127`*^9, 
+   3.7401448437682734`*^9}, {3.7401448745306745`*^9, 3.740144893122058*^9}, {
+   3.740144947895485*^9, 3.74014511871553*^9}, {3.7401451497481194`*^9, 
+   3.740145176349908*^9}, {3.7401456506676974`*^9, 3.7401456597855453`*^9}, {
+   3.7401460416193237`*^9, 3.740146047541487*^9}, {3.740153512341795*^9, 
+   3.740153523988125*^9}, {3.7401553338239317`*^9, 3.7401553378192744`*^9}, 
+   3.7401553999999933`*^9, {3.7401653963393755`*^9, 3.7401655990036573`*^9}, {
+   3.74016593397888*^9, 3.740165940477933*^9}, 3.7401659810828094`*^9, 
+   3.7401660811778545`*^9, {3.7401661533278556`*^9, 3.740166172954836*^9}, {
+   3.740166327317689*^9, 3.740166351325468*^9}, {3.7401663825257626`*^9, 
+   3.740166385598072*^9}, {3.7401667767584953`*^9, 3.7401668746313887`*^9}, {
+   3.7401669433974504`*^9, 3.7401669520695*^9}, {3.7401669858209906`*^9, 
+   3.7401669950009627`*^9}, {3.7401671048948903`*^9, 
+   3.7401671093835893`*^9}, {3.740167236257906*^9, 3.7401672555975857`*^9}, {
+   3.7401675661018715`*^9, 3.740167591153536*^9}, {3.740167659841696*^9, 
+   3.740167668632044*^9}, {3.74016770343425*^9, 3.740167731005044*^9}, {
+   3.7401678970819845`*^9, 3.7401679556786547`*^9}, {3.7401679893783445`*^9, 
+   3.7401679979144096`*^9}, 3.740168116296136*^9, {3.7401687532352495`*^9, 
+   3.740168766907138*^9}, {3.740169031929901*^9, 3.7401690514125967`*^9}, {
+   3.740169096551076*^9, 3.7401691602093105`*^9}, {3.740169211443431*^9, 
+   3.7401692386820016`*^9}, {3.7401692738425465`*^9, 3.740169317643797*^9}, {
+   3.740169424272579*^9, 3.740169442013075*^9}, {3.7401695455205364`*^9, 
+   3.7401696388469057`*^9}, {3.7401696939961367`*^9, 
+   3.7401697075798764`*^9}, {3.7401698099875827`*^9, 
+   3.7401698138175073`*^9}, {3.740170248814226*^9, 3.740170248960132*^9}, 
+   3.740170496571803*^9, {3.740177411071935*^9, 3.740177433930399*^9}, {
+   3.740177616487938*^9, 3.7401776392295475`*^9}, {3.740177752129853*^9, 
+   3.740177779878614*^9}, {3.7401778130843487`*^9, 3.740177837081438*^9}, {
+   3.740177926765976*^9, 3.7401779565233746`*^9}, {3.7401780449199314`*^9, 
+   3.740178048035823*^9}, 3.740178103355874*^9, {3.740178216992852*^9, 
+   3.740178229066433*^9}, {3.7401783856448317`*^9, 3.740178386485306*^9}, 
+   3.740178794183669*^9, {3.740226023341074*^9, 3.740226029432572*^9}, {
+   3.7402260962113867`*^9, 3.740226213811097*^9}, {3.740226278201268*^9, 
+   3.7402263157927437`*^9}, 3.7402263850191407`*^9, {3.740226446470002*^9, 
+   3.740226521740922*^9}, {3.740226582624096*^9, 3.7402267574980564`*^9}, {
+   3.7402268280017405`*^9, 3.7402269425052147`*^9}, {3.7402271800843334`*^9, 
+   3.740227181089742*^9}, {3.7402275072291727`*^9, 3.7402275682602577`*^9}, {
+   3.7402280899807634`*^9, 3.740228108317271*^9}, {3.7402284013036723`*^9, 
+   3.7402284035993595`*^9}, {3.74022941909745*^9, 3.7402294202068157`*^9}, {
+   3.740229523587552*^9, 3.740229523939349*^9}, {3.740229719980019*^9, 
+   3.740229753166645*^9}, {3.7402299031076655`*^9, 3.7402299040595627`*^9}, {
+   3.7402307489036393`*^9, 3.7402307492517595`*^9}, {3.7402310996972632`*^9, 
+   3.740231138750417*^9}, {3.7402312154252834`*^9, 3.7402312507037992`*^9}, {
+   3.7402312865001097`*^9, 3.74023128740119*^9}, {3.7402313358090763`*^9, 
+   3.740231399925331*^9}, {3.74023464086608*^9, 3.740234667059599*^9}, {
+   3.7402346972981677`*^9, 3.74023471296621*^9}, {3.740234747055603*^9, 
+   3.74023480727596*^9}, 3.740234947626713*^9, {3.740235149138774*^9, 
+   3.7402351516093683`*^9}, {3.7402352154391465`*^9, 3.740235217510217*^9}, 
+   3.740235266338659*^9, {3.740235385510578*^9, 3.740235398779777*^9}, {
+   3.740236815467109*^9, 3.7402368194458523`*^9}, {3.7402368744813504`*^9, 
+   3.7402368799282303`*^9}, {3.7402370176084657`*^9, 
+   3.7402371120384398`*^9}, {3.7402440332006702`*^9, 3.7402440374332333`*^9}, 
+   3.740244078783579*^9, {3.740244377081649*^9, 3.740244424122867*^9}, {
+   3.7402459290336275`*^9, 3.740245936513954*^9}, {3.740248663619853*^9, 
+   3.7402486670433846`*^9}, {3.740248845942168*^9, 3.740248849317825*^9}, {
+   3.7402488936581025`*^9, 3.740248900283342*^9}, {3.740248972341253*^9, 
+   3.7402489995515037`*^9}, {3.7402491204903126`*^9, 
+   3.7402491737393103`*^9}, {3.740249233925563*^9, 3.7402492914384623`*^9}, {
+   3.7402494467335234`*^9, 3.7402494836861935`*^9}, 3.7402495617906256`*^9, {
+   3.740249607712429*^9, 3.7402496256513405`*^9}, {3.7402497050813937`*^9, 
+   3.7402497476884775`*^9}, {3.7402498043218994`*^9, 
+   3.7402498387308793`*^9}, {3.7402500702980843`*^9, 3.740250071704438*^9}, {
+   3.7402501083885202`*^9, 3.7402501108179584`*^9}, {3.740250254789896*^9, 
+   3.740250290238616*^9}, {3.740251779230586*^9, 3.74025182025714*^9}, {
+   3.7402518644112124`*^9, 3.7402518755774994`*^9}, {3.7573619462340508`*^9, 
+   3.757362041394582*^9}, {3.757362387203046*^9, 3.757362487145069*^9}, {
+   3.757362533092448*^9, 3.757362533738617*^9}, 3.757362833428204*^9, {
+   3.757362941867772*^9, 3.757362967317184*^9}, {3.757363028546698*^9, 
+   3.757363053365506*^9}, {3.757363218244851*^9, 3.757363232869863*^9}, {
+   3.757363272699581*^9, 3.757363306900669*^9}, {3.757363344074833*^9, 
+   3.757363412145547*^9}, {3.757363453809063*^9, 3.7573635094360943`*^9}, {
+   3.75736354994803*^9, 3.757363555790553*^9}, {3.757363602383073*^9, 
+   3.757363618830455*^9}, 3.757363835716241*^9, {3.757363927952832*^9, 
+   3.7573639290828733`*^9}, {3.7573643276741543`*^9, 3.757364344990918*^9}, {
+   3.757364516575357*^9, 3.757364541169447*^9}, {3.7573645975752897`*^9, 
+   3.757364633131604*^9}, {3.757365167515609*^9, 3.757365196226568*^9}, {
+   3.7573652533706713`*^9, 3.757365256152433*^9}, {3.757365307784421*^9, 
+   3.757365314489554*^9}, {3.7573653720752087`*^9, 3.7573654028237677`*^9}, {
+   3.757365508005784*^9, 3.7573655089992447`*^9}, {3.7573656485342073`*^9, 
+   3.757365674886409*^9}, {3.757365718999076*^9, 3.757365741989007*^9}, {
+   3.757365784498914*^9, 3.757365792412423*^9}, {3.757365858372409*^9, 
+   3.757365874617367*^9}, {3.757365916701729*^9, 3.757365939955567*^9}, {
+   3.7573659903837852`*^9, 3.757365990538289*^9}, {3.757366040837922*^9, 
+   3.757366060840816*^9}, {3.757366095997488*^9, 3.7573661016978407`*^9}, {
+   3.7573661709518223`*^9, 3.757366219407794*^9}, {3.757366278925886*^9, 
+   3.75736627935165*^9}, 3.757366776815296*^9, {3.7573668219677353`*^9, 
+   3.757366824458983*^9}, {3.757366995278347*^9, 3.757367023810504*^9}, {
+   3.7573671044498243`*^9, 3.7573671093594007`*^9}, 3.757367212063882*^9, {
+   3.757367509516453*^9, 3.757367547906958*^9}, 3.7573676210056067`*^9, {
+   3.75736777659943*^9, 3.7573677787264967`*^9}, {3.757367854973472*^9, 
+   3.7573678963648767`*^9}, {3.757367954600375*^9, 3.757367992911921*^9}, {
+   3.7573680529878263`*^9, 3.757368068234823*^9}, {3.757368100015654*^9, 
+   3.7573681363270397`*^9}, {3.75736822490751*^9, 3.75736824729564*^9}, 
+   3.7573682791394777`*^9, {3.757368309359809*^9, 3.757368360971242*^9}, {
+   3.757368397531691*^9, 3.757368442987172*^9}, {3.7573685178866987`*^9, 
+   3.757368521695341*^9}, {3.757368726819413*^9, 3.757368777760193*^9}, {
+   3.757368831600646*^9, 3.7573688426956472`*^9}, {3.757368881343009*^9, 
+   3.7573689809833183`*^9}, {3.757369016230836*^9, 3.757369017033643*^9}, {
+   3.75736904713428*^9, 3.7573690713388977`*^9}, 3.7573692117832937`*^9, 
+   3.757369273842757*^9, {3.757369343625812*^9, 3.757369344718848*^9}, {
+   3.757369377761598*^9, 3.75736938406662*^9}, {3.757369422845943*^9, 
+   3.757369464063402*^9}, {3.7573695313205833`*^9, 3.757369584013015*^9}, {
+   3.7573697488545027`*^9, 3.7573697512312737`*^9}, {3.7573698062311707`*^9, 
+   3.757369847718192*^9}, {3.757369905332827*^9, 3.757369943020769*^9}, 
+   3.757503352353751*^9, {3.757503453979431*^9, 3.7575034556784773`*^9}, {
+   3.7575035542937317`*^9, 3.7575035643629217`*^9}, {3.757503660037819*^9, 
+   3.7575036649006367`*^9}, 3.757503726974367*^9, {3.7575037819512987`*^9, 
+   3.7575038741908216`*^9}, {3.757504024344874*^9, 3.757504073126088*^9}, {
+   3.757504185794755*^9, 3.7575042031430073`*^9}, 3.7575047440819063`*^9},
+ CellLabel->
+  "In[287]:=",ExpressionUUID->"4f6c9f1a-fb88-4927-b5d3-1342d51f5442"],
+
+Cell[BoxData[
+ TemplateBox[{"\"https://wolfr.am/AUKiXuGg\"","https://wolfr.am/AUKiXuGg"},
+  "HyperlinkURL"]], "Output",
+ CellChangeTimes->{{3.7402296368199043`*^9, 3.740229652687066*^9}, 
+   3.740229758718136*^9, 3.7402299137738132`*^9, 3.740230754420469*^9, {
+   3.7402312295509357`*^9, 3.7402312518853297`*^9}, 3.740231295124956*^9, 
+   3.7402313438389854`*^9, {3.7402313750184555`*^9, 3.7402314013185797`*^9}, 
+   3.7402316224641323`*^9, 3.7402351529923506`*^9, 3.740235219297522*^9, 
+   3.740235405262323*^9, 3.74023615774781*^9, 3.74023682145669*^9, 
+   3.74023688798562*^9, {3.7402371143431225`*^9, 3.7402371358798265`*^9}, 
+   3.740244103483476*^9, 3.740244463544819*^9, 3.7402444968290234`*^9, 
+   3.7402445351400986`*^9, 3.7402446678305845`*^9, 3.7402479368347263`*^9, 
+   3.740248851062887*^9, 3.740248901210453*^9, 3.7402491802384906`*^9, 
+   3.7402492981095543`*^9, 3.7402498494879713`*^9, 3.740249996054509*^9, 
+   3.740250112238962*^9, {3.7402502707420135`*^9, 3.7402502922198477`*^9}, 
+   3.740250536679742*^9, 3.74025182300074*^9, 3.7402518773442526`*^9, 
+   3.7402676474128523`*^9, 3.7402694863904696`*^9, 3.757361957152824*^9, 
+   3.757363063497759*^9, 3.757363562240962*^9, 3.757363621759665*^9, 
+   3.757363837746051*^9, 3.757364544450221*^9, 3.757364637426898*^9, {
+   3.757365276967189*^9, 3.7573652840497513`*^9}, 3.757365317609171*^9, {
+   3.7573653780861683`*^9, 3.757365410033374*^9}, {3.7573655122880983`*^9, 
+   3.757365517854467*^9}, {3.757365661441883*^9, 3.757365680584272*^9}, {
+   3.757365721447592*^9, 3.757365798605955*^9}, {3.757365876047179*^9, 
+   3.757365881080228*^9}, {3.75736591810887*^9, 3.757365950859818*^9}, {
+   3.757365993274688*^9, 3.7573659996277657`*^9}, 3.757366064228101*^9, {
+   3.7573661029887466`*^9, 3.75736610974072*^9}, {3.7573661729887877`*^9, 
+   3.757366221266966*^9}, 3.757366281522636*^9, 3.757366785328903*^9, 
+   3.757366825866712*^9, 3.757367034614604*^9, 3.757367117279008*^9, 
+   3.757367216505535*^9, {3.757367537889258*^9, 3.757367552233275*^9}, {
+   3.7573676008822317`*^9, 3.757367623495297*^9}, 3.757367735898419*^9, 
+   3.75736778026777*^9, 3.757368142070664*^9, 3.757368365991795*^9, 
+   3.7573684479187517`*^9, 3.757369109606179*^9, 3.7573694662545347`*^9, 
+   3.757369590096643*^9, 3.75736994582012*^9, 3.757370182086855*^9, 
+   3.757370326180235*^9, 3.7575033589235983`*^9, 3.7575034576623697`*^9, 
+   3.7575035761188602`*^9, 3.7575036677839537`*^9, 3.757503876978805*^9, 
+   3.757504078684779*^9, 3.757504205756112*^9, 3.757504752845916*^9, 
+   3.757505139406352*^9},
+ CellLabel->
+  "Out[287]=",ExpressionUUID->"58ddc4ce-413a-41e1-90e3-65b53c60f9a3"]
+}, Open  ]]
+},
+WindowSize->{1165, 703},
+WindowMargins->{{Automatic, 0}, {Automatic, 9}},
+Magnification:>1.2 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 430, 8, 36, "Input",ExpressionUUID->"fdee147f-e44e-4b96-bc69-536936428a55"],
+Cell[1013, 32, 14453, 291, 74, "Output",ExpressionUUID->"19577994-2309-4ad4-9f97-d9092c9f2be4"]
+}, Open  ]],
+Cell[15481, 326, 184, 3, 36, "Input",ExpressionUUID->"0d7d2be5-56c5-478c-9ee8-87956c73b069"],
+Cell[CellGroupData[{
+Cell[15690, 333, 63731, 1118, 6205, "Input",ExpressionUUID->"4f6c9f1a-fb88-4927-b5d3-1342d51f5442"],
+Cell[79424, 1453, 2630, 38, 77, "Output",ExpressionUUID->"58ddc4ce-413a-41e1-90e3-65b53c60f9a3"]
+}, Open  ]]
+}
+]
+*)
+
